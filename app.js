@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send('Welcome to my app!')
+    res.send('Served through Express')
 })
 
 app.listen(PORT, function () {
